@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/is_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Hello World!"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+    <TextView
+        android:id="@+id/is_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/is_0"
+        android:text="Isep Irmansyah"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/is_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/is_nama"
+        android:text="Jakarta"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/is_hobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/is_alamat"
+        android:text="Player Keyboard"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btn_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/is_hobi"
+        android:layout_centerHorizontal="true"
+        android:background="@color/hijau"
+        android:layout_marginTop="50dp"
+        android:text="Move"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
