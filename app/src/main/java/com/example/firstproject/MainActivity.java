@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
 //                finish();
 //                onDestroy(); APLIKASI LANGSUNG TERUS BERHENTI
 
+//                ini testimoni
+
             }
         });
     }
