@@ -9,10 +9,7 @@ public class ActivityKedua extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kedua);
-
-        TextView is = findViewById(R.id.is_text);
+        super.onCreate(savedInstanceState);TextView is = findViewById(R.id.is_text);
         TextView i = findViewById(R.id.is_tex1);
 
         Bundle ambil = getIntent().getExtras();
@@ -32,5 +29,8 @@ public class ActivityKedua extends AppCompatActivity {
             i.setText(alamat);
 
         }
+        setContentView(R.layout.activity_kedua);
+
+
     }
 }
